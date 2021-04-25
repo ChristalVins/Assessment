@@ -13,5 +13,6 @@ namespace Assessment.Interface
         Task<ApiResponse> SubscriberService(string token);
         Task<ApiResponse> CategoriesService(string token);
         Task<ApiResponse> GetMagazineService(string token, string category);
+
     }
 }
